@@ -1,9 +1,13 @@
 package cn.ololee.jnidemo;
 
 import android.content.Context;
+import android.util.Log;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
+import com.hht.pinyin.Pinyin;
+import com.hht.pinyin.PinyinData;
+import java.util.Arrays;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

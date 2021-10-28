@@ -1,12 +1,29 @@
 cmake_minimum_required(VERSION 3.10.2)
+
+set(${CMAKE_C_FLAGS}, "${CMAKE_C_FLAGS}")
+
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11 -Wall -Werror")
+
+
 project("jnidemo")
 
 add_library(jnidemo
         SHARED
-        entry.cpp)
+        samples/texturemap.cpp
+        gles/traingles.cpp
+        gles/glutils.cpp
+        entry.cpp
+        mmaputils.cpp)
 
 find_library(log-lib
-        log )
+        log)
+
 
 target_link_libraries(jnidemo
-        ${log-lib} )
+        android
+        GLESv3
+        EGL
+        GLESv1_CM
+        -ljnigraphics
+        ${log-lib})

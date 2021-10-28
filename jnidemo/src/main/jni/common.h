@@ -6,6 +6,17 @@
 #define EXAMPLES_COMMON_H
 #include <jni.h>
 #include<android/log.h>
+
+#include <linux/input.h>
+#include <linux/uinput.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdint.h>
+#include <stdio.h>
+
 #define TAG "jnidemoa"
 
 #define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG ,__VA_ARGS__) // 定义LOGD类型

@@ -2,8 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="cn.ololee.jnidemo">
 
+  <uses-feature
+    android:glEsVersion="0x00030002"
+    android:required="true" />
+
   <application>
-    <activity android:name=".JniDemoActivity"></activity>
+    <activity android:name=".earth.EarthActivity"></activity>
+    <activity android:name=".sphere.SphereActivity" />
+    <activity android:name=".traingles.TrainglesActivity" />
+    <activity android:name=".mmap.MmapActivity" />
+    <activity android:name=".opengl.TextureMapActivity" />
+    <activity android:name=".GlutActivity" />
+    <activity android:name=".RenderScriptBlurActivity" />
+    <activity android:name=".NativeGuassBlurActivity" />
+    <activity android:name=".JniDemoActivity" />
+    <activity android:name=".OpenGLGaussBlurActivity" />
   </application>
 
 </manifest>

@@ -6,4 +6,12 @@
     <attr name="fingerSize" format="dimension" />
     <attr name="radius" format="dimension" />
   </declare-styleable>
+
+  <declare-styleable name="RotateProgressView">
+    <attr name="count" format="integer" />
+    <attr name="color" format="color" />
+    <attr name="r" format="dimension" />
+    <attr name="maxR" format="dimension" />
+    <attr name="minR" format="dimension" />
+  </declare-styleable>
 </resources>

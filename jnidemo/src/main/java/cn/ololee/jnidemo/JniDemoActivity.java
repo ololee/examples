@@ -15,5 +15,6 @@ public class JniDemoActivity extends AppCompatActivity {
     jniTv = findViewById(R.id.jnitv);
 
     jniTv.setText(JniEntry.sayHello());
+    JniEntry.open();
   }
 }

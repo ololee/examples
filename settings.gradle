@@ -1,3 +1,5 @@
 rootProject.name = "Examples"
 include ':app'
 include ':jnidemo'
+include ':filesearch'
+include ':pinyin'

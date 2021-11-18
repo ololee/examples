@@ -52,7 +52,9 @@ public class ControllerView extends View implements View.OnTouchListener {
           Color.GRAY);
       radius = typedArray.getDimension(R.styleable.ControllerView_radius, 220);
       innerRadius = typedArray.getDimension(R.styleable.ControllerView_fingerSize, innerRadius);
+      borderPaint.setAntiAlias(true);
       borderPaint.setColor(borderColor);
+      fingerPaint.setAntiAlias(true);
       fingerPaint.setColor(fingerColor);
       lastX = lastY = fingerX = fingerY = centerX = centerY = radius;
       radiusBorder = radius - innerRadius;

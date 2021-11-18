@@ -20,16 +20,16 @@ android {
 
   signingConfigs {
     release {
-      storeFile file("../hht2022.keystore")
-      storePassword "hht2022"
-      keyAlias "hht2022"
-      keyPassword "hht2022"
+      storeFile file("../hht.keystore")
+      storePassword "hht2020"
+      keyAlias "mykey"
+      keyPassword "hht2020"
     }
-    debug {
-      storeFile file("../hht2022.keystore")
-      storePassword "hht2022"
-      keyAlias "hht2022"
-      keyPassword "hht2022"
+    debug{
+      storeFile file("../hht.keystore")
+      storePassword "hht2020"
+      keyAlias "mykey"
+      keyPassword "hht2020"
     }
   }
 
@@ -50,8 +50,7 @@ android {
 dependencies {
   implementation project(":jnidemo")
   implementation project(":filesearch")
-  implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-  implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+  //noinspection GradleCompatible
   implementation 'androidx.appcompat:appcompat:1.2.0'
   implementation "androidx.paging:paging-runtime:3.0.1"
 //  implementation 'androidx.appcompat:appcompat:1.3.1'

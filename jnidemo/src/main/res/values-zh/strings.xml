@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="app_name">系统设置</string>
+  <string name="option_section_network">网络</string>
+  <string name="option_section_common">通用</string>
+  <string name="option_section_more">更多</string>
+  <string name="option_item_network_wired">有线网络</string>
+  <string name="option_item_network_wireless">无线网络</string>
+  <string name="option_item_network_hotspot">无线热点</string>
+  <string name="option_item_router_network_advanced">高级设置</string>
+  <string name="option_item_bluetooth">蓝牙设置</string>
+  <string name="option_item_sound_display">声音和显示</string>
+  <string name="option_item_language_input">语言和输入法</string>
+  <string name="option_item_date_time">日期和时间</string>
+  <string name="option_item_signal_source">信号源</string>
+  <string name="option_item_customize">个性化</string>
+  <string name="option_item_device_manager">设备管理</string>
+  <string name="option_item_boot_setting">开机和待机</string>
+  <string name="option_item_gesture">手势设置</string>
+  <string name="option_item_screen_lock">屏幕锁定</string>
+  <string name="option_item_device_info">关于设备</string>
+  <string name="option_item_system_aid">辅助设置</string>
+
+  <string name="preference_apply">应用</string>
+  <string name="dialog_confirm">确定</string>
+  <string name="dialog_cancel">取消</string>
+  <string name="dialog_title_tips">提示信息</string>
+  <string name="dialog_loading_tips">加载中…</string>
+
+
+  <string name="msg_save_success">保存成功</string>
+  <string name="btn_text_confirm">确定</string>
+  <string name="btn_text_cancel">取消</string>
+
+  <!--  有线网络-->
+  <string name="prefs_title_wired_mac">MAC地址</string>
+  <string name="prefs_title_wired_switch">有线网络</string>
+  <string name="prefs_title_wired_auto_ip_switch">自动获取IP地址</string>
+  <string name="prefs_title_wired_set_ip">IP地址</string>
+  <string name="prefs_title_wired_set_net_mask">子网掩码</string>
+  <string name="prefs_title_wired_set_gateway">网关</string>
+  <string name="prefs_title_wired_set_dns">DNS</string>
+
+  <string name="prefs_key_wired_mac">prefs_key_wired_mac</string>
+  <string name="prefs_key_wired_switch">prefs_key_wired_switch</string>
+  <string name="prefs_key_wired_auto_ip_switch">prefs_key_wired_auto_ip_switch</string>
+  <string name="prefs_key_wired_set_ip">prefs_key_wired_set_ip</string>
+  <string name="wired_info_ip">IP地址</string>
+  <string name="wired_info_net_mask">子网掩码</string>
+  <string name="wired_info_gateway">网关</string>
+  <string name="wired_info_dns">DNS</string>
+  <string name="msg_wired_is_not_linked">网线未插入</string>
+  <!--  有线网络-->
+
+  <!--  无线网络-->
+  <string name="prefs_title_wireless_mac">MAC地址</string>
+  <string name="prefs_title_wireless_switch">无线网络</string>
+
+  <string name="prefs_key_wireless_mac">prefs_key_wireless_mac</string>
+  <string name="prefs_key_wireless_switch">prefs_key_wireless_switch</string>
+  <string name="prefs_key_wireless_wifi_list">prefs_key_wireless_wifi_list</string>
+
+  <string name="network_wifi_status_connected_no_internet">已连接，但无法访问互联网</string>
+  <string name="network_wifi_status_saved">已保存</string>
+  <string name="network_wifi_status_out_of_range">不在范围内</string>
+  <string name="network_wifi_status_idle" />
+  <string name="network_wifi_status_disabled">"已停用"</string>
+  <string name="network_wifi_status_wrong_pwd">"密码错误"</string>
+  <string name="network_wifi_status_unavailable">"未启用"</string>
+  <string name="network_wifi_status_network_failure">"IP 配置失败"</string>
+  <string name="network_wifi_status_wifi_failure">"WLAN 连接失败"</string>
+  <string name="network_wifi_status_password_failure">"身份验证出现问题"</string>
+  <string name="network_wifi_status_scanning">正在扫描…</string>
+  <string name="network_wifi_status_connecting">正在连接…</string>
+  <string name="network_wifi_status_authenticating">正在进行身份验证…</string>
+  <string name="network_wifi_status_obtaining_ip_address">正在获取IP地址…</string>
+  <string name="network_wifi_status_connected">已连接</string>
+  <string name="network_wifi_status_suspended">已暂停</string>
+  <string name="network_wifi_status_disconnecting">正在断开连接…</string>
+  <string name="network_wifi_status_disconnected">已断开连接</string>
+  <string name="network_wifi_status_failed">失败</string>
+  <string name="network_wifi_status_blocked">已停用</string>
+  <string name="network_wifi_status_verifying_poor_link">暂时关闭（网络状况不佳）</string>
+  <string name="network_wifi_connection_security">"通过%s进行保护"</string>
+  <string name="network_wifi_connection_security_none">"无"</string>
+
+  <string name="dialog_wifi_connect_strength_text">信号强度</string>
+  <string name="dialog_wifi_connect_security_text">安全性</string>
+  <string name="dialog_wifi_connect_pwd_text">密码</string>
+  <string name="dialog_wifi_connect_advanced_options_text">高级选项</string>
+  <string name="dialog_wifi_connect_show_pwd_text">显示密码</string>
+  <string name="dialog_wifi_connect_text_title">密码：</string>
+  <string name="dialog_wifi_connect_text_hint">输入网络密码</string>
+  <string name="dialog_wifi_connect_dhcp">自动获取IP地址</string>
+
+  <string name="dialog_wifi_detail_status_text">状态信息</string>
+  <string name="dialog_wifi_detail_strength_text">信号强度</string>
+  <string name="dialog_wifi_detail_speed_text">连接速度</string>
+  <string name="dialog_wifi_detail_frequency_text">频率</string>
+  <string name="dialog_wifi_detail_security_text">安全性</string>
+  <string name="dialog_wifi_detail_ip">IP地址</string>
+  <string name="dialog_wifi_detail_header">网络信息</string>
+  <string name="dialog_wifi_detail_forgot">忘记网络</string>
+
+  <string name="dialog_wifi_forget_text">确定忘记\"%s\"网络吗？</string>
+
+  <string-array name="wifi_signal_level">
+    <item>很弱</item>
+    <item>弱</item>
+    <item>一般</item>
+    <item>强</item>
+  </string-array>
+
+  <string name="dialog_wifi_connect_loading_msg">正在连接...</string>
+  <string name="wifi_ip_settings_invalid_ip_address">"请输入有效的IP地址"</string>
+  <string name="wifi_ip_settings_invalid_gateway">"请键入有效的网关地址"</string>
+  <string name="wifi_ip_settings_invalid_dns">"请输入有效的DNS地址"</string>
+  <string name="wifi_ip_settings_invalid_network_prefix_length">"请输入有效的子网掩码"</string>
+
+  <string name="msg_wifi_pwd_input_error">密码输入有误</string>
+  <string name="msg_wifi_connect_failed">连接失败</string>
+  <string name="msg_wifi_connect_timeout">连接超时</string>
+  <string name="msg_wifi_connect_failed_pwd_input_error">密码错误，连接失败</string>
+
+  <string name="wifi_text_pwd">密码</string>
+  <string name="wifi_text_input_pwd">输入密码</string>
+  <string name="wifi_text_connecting">无线网连接中</string>
+  <string name="wifi_text_connect_failed">密码错误，连接失败</string>
+  <string name="wifi_list_header">选择网络</string>
+  <string name="text_btn_connect">连接</string>
+  <!--  无线网络-->
+
+  <!--  无线热点-->
+  <string name="prefs_title_hotspot_switch">热点开关</string>
+  <string name="prefs_title_hotspot_ssid">热点名称</string>
+  <string name="prefs_title_hotspot_password">热点密码</string>
+
+  <string name="prefs_key_hotspot_switch">prefs_key_hotspot_switch</string>
+  <string name="prefs_key_hotspot_ssid">prefs_key_hotspot_ssid</string>
+  <string name="prefs_key_hotspot_password">prefs_key_hotspot_password</string>
+  <string name="prefs_key_hotspot_apply_config">prefs_key_hotspot_apply_config</string>
+
+  <string name="msg_hotspot_ssid_too_long">热点名称过长</string>
+  <string name="msg_hotspot_ssid_too_short">热点名称不能为空</string>
+  <string name="msg_hotspot_pwd_too_long">密码过长</string>
+  <string name="msg_hotspot_pwd_too_short">热点密码最少输入8位</string>
+  <string name="msg_turn_off_wifi_first">请先关闭无线网络</string>
+
+  <string name="prefs_title_router_hotspot_2G">2.4G无线热点</string>
+  <string name="prefs_title_router_hotspot_5G">5G无线热点</string>
+  <!--  无线热点-->
+
+  <!--  路由高级设置-->
+  <string name="prefs_title_router_advanced">高级设置</string>
+  <string name="prefs_title_router_mode">模式设置</string>
+  <string name="prefs_title_router_reset">网络复位</string>
+  <string name="prefs_title_router_update">系统更新</string>
+  <string name="prefs_title_router_mode_route">路由模式</string>
+  <string name="prefs_title_router_mode_ap">AP模式</string>
+  <string name="prefs_router_dialog_tip_network_reset">网络复位将中断当前所有连接，大约需要1分钟。</string>
+  <string name="prefs_router_dialog_tip_update_check">更新检测中…</string>
+  <string name="prefs_router_dialog_btn_update">立即更新</string>
+  <string name="prefs_router_dialog_tip_updating">版本下载中，请勿断电</string>
+  <string name="prefs_router_dialog_tip_download_failed">下载失败，请稍后重试！</string>
+  <string name="prefs_router_tip_update_no_need">当前已是最新版本</string>
+  <string name="prefs_router_tip_update_found_new_version">发现新版本</string>
+  <string name="prefs_router_tip_update_current_version">当前版本：%s</string>
+  <string name="prefs_router_tip_update_new_version">最新版本：%s</string>
+  <string name="prefs_router_tip_on_reboot">正在配置网络，请等待…</string>
+  <!--  路由高级设置-->
+
+  <!--  网络小工具-->
+  <string name="network_tool_title">网络设置</string>
+  <string name="network_tool_wired">有线网络</string>
+  <string name="network_tool_wireless">无线网络</string>
+  <string name="network_tool_wifi_detail_header">网络信息</string>
+  <string name="network_tool_wifi_forget">忘记网络</string>
+
+  <!--  网络小工具-->
+
+  <!--  声音和显示-->
+  <string name="prefs_key_sound">prefs_key_sound</string>
+  <string name="prefs_key_display">prefs_key_display</string>
+  <string name="prefs_key_energy_saving">prefs_key_energy_saving</string>
+  <string name="prefs_key_eye_protection">prefs_key_eye_protection</string>
+  <string name="prefs_key_source_display">prefs_key_source_display</string>
+  <string name="prefs_title_sound">声音设置</string>
+  <string name="prefs_title_display">显示设置</string>
+  <string name="prefs_title_energy_saving">节能设置</string>
+  <string name="prefs_title_eye_protection">护眼设置</string>
+  <string name="prefs_title_source_display">屏幕设置</string>
+
+  <string name="prefs_title_sound_advanced">高级设置</string>
+  <string name="prefs_title_sound_bass">低音</string>
+  <string name="prefs_title_sound_treble">高音</string>
+  <string name="prefs_title_sound_balanced">平衡</string>
+  <string name="prefs_title_sound_mute">静音</string>
+  <string name="prefs_title_sound_volume">音量</string>
+  <string name="prefs_title_sound_mode_standard">标准</string>
+  <string name="prefs_title_sound_mode_meeting">会议</string>
+  <string name="prefs_title_sound_mode_cinema">影院</string>
+  <string name="prefs_title_sound_mode_classroom">教室</string>
+  <string name="prefs_title_sound_mode_customize">自定义</string>
+
+  <string name="prefs_title_display_advanced">高级设置</string>
+  <string name="prefs_title_display_brightness">亮度</string>
+  <string name="prefs_title_display_contrast">对比度</string>
+  <string name="prefs_title_display_hue">色&#8195;调</string>
+  <string name="prefs_title_display_sharpness">锐&#8195;度</string>
+  <string name="prefs_title_display_mode_standard">标准</string>
+  <string name="prefs_title_display_mode_bright">明亮</string>
+  <string name="prefs_title_display_mode_vivid">鲜艳</string>
+  <string name="prefs_title_display_mode_low_light">护眼</string>
+  <string name="prefs_title_display_mode_customize">自定义</string>
+
+  <string name="prefs_title_source_display_mode_auto">自动</string>
+  <string name="prefs_title_source_display_mode_p2p">点对点</string>
+  <string name="prefs_title_source_display_mode_16_9">16:9</string>
+  <string name="prefs_title_source_display_mode_4_3">4:3</string>
+
+  <string name="prefs_key_energy_standby_mode">prefs_key_energy_standby_mode</string>
+  <string name="prefs_title_energy_standby_mode">待机模式</string>
+  <string name="prefs_title_energy_standby_mode_normal">正常待机</string>
+  <string name="prefs_title_energy_standby_mode_part">极速开机</string>
+  <string name="prefs_title_energy_standby_mode_str">""</string>
+
+  <string name="prefs_key_energy_saving_close_blackboard">prefs_key_energy_saving_close_blackboard</string>
+  <string name="prefs_title_energy_saving_close_blackboard">黑板关闭自动待机</string>
+  <string name="prefs_title_energy_saving_close_blackboard_never">从不</string>
+  <string name="prefs_title_energy_saving_close_blackboard_1_minute">1分钟</string>
+  <string name="prefs_title_energy_saving_close_blackboard_3_minute">3分钟</string>
+  <string name="prefs_title_energy_saving_close_blackboard_5_minute">5分钟</string>
+
+  <string name="prefs_key_energy_saving_no_operation">prefs_key_energy_saving_no_operation</string>
+  <string name="prefs_title_energy_saving_no_operation">无操作自动待机</string>
+  <string name="prefs_title_energy_saving_no_operation_never">从不</string>
+  <string name="prefs_title_energy_saving_no_operation_10_minute">10分钟</string>
+  <string name="prefs_title_energy_saving_no_operation_30_minute">30分钟</string>
+  <string name="prefs_title_energy_saving_no_operation_60_minute">1小时</string>
+  <string name="prefs_title_energy_saving_no_operation_120_minute">2小时</string>
+  <string name="prefs_title_energy_saving_no_operation_180_minute">3小时</string>
+  <string name="text_energy_saving_minute">"%d分钟"</string>
+  <string name="text_energy_saving_hour">"%d小时"</string>
+
+  <string name="prefs_title_eye_protection_switch">护眼模式</string>
+  <string name="prefs_title_eye_protection_switch_summary">通过色温、亮度的变化，减少对视力的伤害</string>
+  <string name="prefs_title_eye_protection_plus">柔光护眼</string>
+  <string name="prefs_title_eye_protection_plus_summary">通过调节色温，减少对视力的伤害</string>
+  <string name="prefs_title_eye_protection_brightness_low">亮度护眼</string>
+  <string name="prefs_title_eye_protection_brightness_low_summary">通过调节显示亮度，减少对视力的伤害</string>
+  <string name="prefs_title_eye_protection_brightness_write">书写护眼</string>
+  <string name="prefs_title_eye_protection_brightness_write_summary">白板书写状态下，通过亮度调节，减少对视力的伤害</string>
+  <string name="prefs_title_eye_protection_brightness_auto">光控护眼</string>
+  <string name="prefs_title_eye_protection_brightness_auto_summary">根据环境光调节显示亮度，减少对视力的伤害</string>
+
+  <!--  声音和显示-->
+
+  <!--  语言和输入法-->
+  <string name="prefs_key_language">prefs_key_language</string>
+  <string name="prefs_title_language">语言</string>
+  <string name="prefs_title_language_simple_chinese">简体中文</string>
+  <string name="prefs_title_language_english">English</string>
+
+  <string name="prefs_key_input">prefs_key_input</string>
+  <string name="prefs_title_input">输入法</string>
+  <!--  语言和输入法-->
+
+  <!--  日期和时间  -->
+  <string name="prefs_title_date_time_time_zone">设置时区</string>
+  <string name="prefs_title_date_time_auto_time">自动设置</string>
+  <string name="prefs_title_date_time_set_date">设置日期</string>
+  <string name="prefs_title_date_time_set_time">设置时间</string>
+  <string name="prefs_title_date_time_time_24">24H格式</string>
+  <string name="prefs_title_date_time_countdown">倒计时</string>
+  <string name="prefs_title_date_time_am">上午</string>
+  <string name="prefs_title_date_time_pm">下午</string>
+
+  <string name="prefs_key_datetime_time_zone">prefs_key_time_zone</string>
+  <string name="prefs_key_datetime_auto_time">prefs_key_auto_time</string>
+  <string name="prefs_key_datetime_set_date">prefs_key_set_date</string>
+  <string name="prefs_key_datetime_set_time">prefs_key_set_time</string>
+  <string name="prefs_key_datetime_time_12_24">prefs_key_time_12_24</string>
+  <string name="prefs_key_datetime_time_countdown">prefs_key_time_countdown</string>
+
+  <string name="prefs_title_datetime_countdown_switch">开关</string>
+  <string name="prefs_title_datetime_countdown_event_name">事件名称</string>
+  <string name="prefs_title_datetime_countdown_event_time">日期</string>
+
+  <string name="prefs_datetime_dialog_countdown_event_1">高考</string>
+  <string name="prefs_datetime_dialog_countdown_event_2">会考</string>
+  <string name="prefs_datetime_dialog_countdown_event_3">期中考试</string>
+  <string name="prefs_datetime_dialog_countdown_event_4">期末考试</string>
+  <string name="prefs_datetime_dialog_countdown_event_custom">自定义</string>
+  <string name="text_year">年</string>
+  <string name="text_month">月</string>
+  <string name="text_day">日</string>
+  <string name="text_countdown_add_event">添加事件</string>
+  <!--  日期和时间  -->
+
+  <!--  个性化-->
+  <string name="prefs_title_customize_wallpaper">背景设置</string>
+  <string name="prefs_title_customize_compass">罗盘设置</string>
+  <string name="prefs_title_customize_quick_start_menu">快速调用菜单</string>
+  <string name="prefs_title_customize_hotkey">快捷键设置</string>
+
+  <string name="prefs_key_customize_wallpaper">prefs_key_customize_background</string>
+  <string name="prefs_key_customize_compass">prefs_key_customize_compass</string>
+  <string name="prefs_key_customize_quick_start_menu">prefs_key_customize_quick_start_menu</string>
+  <string name="prefs_key_customize_hotkey">prefs_key_customize_keymap</string>
+
+  <string name="prefs_title_customize_usb_passage">双通道USB设置</string>
+  <string name="prefs_key_customize_usb_passage">prefs_key_customize_usb_passage</string>
+  <string name="prefs_title_customize_usb_passage_adaptive">自适应</string>
+  <string name="prefs_title_customize_usb_passage_android_only">仅安卓</string>
+  <string name="prefs_title_customize_usb_passage_ops_only">仅OPS</string>
+  <string name="prefs_key_customize_usb_passage_adaptive">prefs_key_customize_usb_passage_adaptive</string>
+  <string name="prefs_key_customize_usb_passage_android_only">prefs_key_customize_usb_passage_android_only</string>
+  <string name="prefs_key_customize_usb_passage_ops_only">prefs_key_customize_usb_passage_ops_only</string>
+
+  <string name="prefs_key_customize_background_launcher_show">prefs_key_customize_background_launcher_show</string>
+  <string name="prefs_key_customize_background_picker">prefs_key_customize_background_picker</string>
+  <string name="prefs_title_customize_background_launcher_show">时间显示</string>
+  <string name="prefs_customize_background_image_tip">提示：仅支持PNG格式图片，建议分辨率1920*1080以上</string>
+  <string name="prefs_title_customize_wallpaper_add">添加背景</string>
+  <string name="msg_usb_device_not_found">未发现USB设备</string>
+  <string name="msg_set_wallpaper_failed">设置背景失败</string>
+  <string name="custom_wallpaper_local">本地</string>
+  <string name="custom_wallpaper_usb">U盘</string>
+  <string name="custom_wallpaper_not_found">未找到任何内容</string>
+
+  <string name="prefs_key_customize_compass_switch">prefs_key_customize_compass_switch</string>
+  <string name="prefs_title_customize_compass_switch">罗盘开关</string>
+  <string name="prefs_key_customize_animate_compass_switch">prefs_key_customize_animate_compass_switch</string>
+  <string name="prefs_title_customize_animate_compass_switch">罗盘动态开关</string>
+  <string name="prefs_key_customize_compass_customize">prefs_key_customize_compass_customize</string>
+  <string name="prefs_title_customize_compass_customize">自定义罗盘</string>
+  <string name="compass_text_add_package_unit">添加</string>
+  <string name="compass_text_group_name">分组名称：</string>
+  <string name="compass_text_restore">恢复出厂设置</string>
+
+  <string name="text_hot_key_mode_header">显示模式：</string>
+  <string name="text_hot_key_mode_simple">极简模式</string>
+  <string name="text_hot_key_mode_classic">经典模式</string>
+  <string name="text_hot_key_mode_hide">隐藏模式</string>
+  <string name="text_hot_key_time_header">自动收起时间：</string>
+  <string name="text_hot_key_time_5s">5秒</string>
+  <string name="text_hot_key_time_10s">10秒</string>
+  <string name="text_hot_key_time_20s">20秒</string>
+  <!--  个性化-->
+
+  <!--  信号源-->
+  <string name="prefs_key_signal_source_customize">prefs_key_signal_source_customize</string>
+  <string name="prefs_key_signal_source_auto_enter_new_source">prefs_key_signal_source_auto_enter_new_source</string>
+  <string name="prefs_key_signal_source_auto_wakeup">prefs_key_signal_source_auto_wakeup</string>
+  <string name="prefs_key_signal_source_hdmi_output">prefs_key_signal_source_hdmi_output</string>
+  <string name="prefs_key_signal_source_auto_switch">prefs_key_signal_source_auto_switch</string>
+
+  <string name="prefs_title_signal_source_customize">自定义信号源</string>
+  <string name="prefs_title_signal_source_auto_enter_new_source">自动进入新接信号源</string>
+  <string name="prefs_title_signal_source_auto_wakeup">电脑信号自动唤醒</string>
+  <string name="prefs_title_signal_source_hdmi_output">HDMI输出</string>
+  <string name="prefs_title_signal_source_auto_switch">无信号自动切换信号源</string>
+  <string name="text_signal_source_customize_hint">自定义</string>
+  <!--  信号源-->
+
+  <!--  开机设置-->
+  <string name="prefs_key_boot_enter_signal_source">prefs_key_boot_enter_signal_source</string>
+  <string name="prefs_key_boot_ops_start_mode">prefs_key_boot_ops_start_mode</string>
+  <string name="prefs_key_boot_remote_boot">prefs_key_boot_remote_boot</string>
+  <string name="prefs_key_boot_timer_switch">prefs_key_boot_timer_switch</string>
+
+  <string name="prefs_title_boot_enter_signal_source">开机进入</string>
+  <string name="prefs_title_boot_enter_signal_source_last">上一次信号源</string>
+  <string name="prefs_title_boot_ops_start_mode">内置电脑启动方式</string>
+  <string name="prefs_title_boot_ops_start_mode_only">仅当内置电脑通道时启动</string>
+  <string name="prefs_title_boot_ops_start_mode_always">任意通道都启动</string>
+  <string name="prefs_title_boot_remote_boot">远程开机</string>
+  <string name="prefs_title_boot_timer_switch">定时开关机</string>
+  <string name="prefs_key_boot_timer_add_plan">prefs_key_boot_timer_add_plan</string>
+  <string name="prefs_title_boot_timer_add_plan">添加计划</string>
+  <string name="msg_timer_boot_repeat">请设置开机重复时间</string>
+  <string name="msg_timer_shutdown_repeat">请设置关机重复时间</string>
+  <string name="text_boot_time">开机时间</string>
+  <string name="text_shutdown_time">关机时间</string>
+  <string name="text_boot">开机</string>
+  <string name="text_shutdown">关机</string>
+  <string name="text_repeat">重复</string>
+  <string name="text_monday">周一</string>
+  <string name="text_tuesday">周二</string>
+  <string name="text_wednesday">周三</string>
+  <string name="text_thursday">周四</string>
+  <string name="text_friday">周五</string>
+  <string name="text_saturday">周六</string>
+  <string name="text_sunday">周日</string>
+
+  <string name="text_monday_short">一</string>
+  <string name="text_tuesday_short">二</string>
+  <string name="text_wednesday_short">三</string>
+  <string name="text_thursday_short">四</string>
+  <string name="text_friday_short">五</string>
+  <string name="text_saturday_short">六</string>
+  <string name="text_sunday_short">日</string>
+  <!--  开机设置-->
+
+  <!--  手势设置-->
+  <string name="prefs_key_gesture_3_pointer_close_screen">prefs_key_gesture_3_pointer_close_screen</string>
+  <string name="prefs_key_gesture_2_pointer_move_compass">prefs_key_gesture_2_pointer_move_compass</string>
+  <string name="prefs_key_gesture_double_tap_compass_move_down_screen">prefs_key_gesture_double_tap_compass_move_down_screen</string>
+
+  <string name="prefs_title_gesture_3_pointer_close_screen">三指息屏</string>
+  <string name="prefs_title_gesture_2_pointer_move_compass">双指长按呼唤罗盘</string>
+  <string name="prefs_title_gesture_double_tap_compass_move_down_screen">双击罗盘执行屏幕下移</string>
+  <!--  手势设置-->
+
+  <!--  辅助设置-->
+  <string name="prefs_key_system_aid_gesture">prefs_key_system_aid_gesture</string>
+  <string name="prefs_key_system_aid_sign">prefs_key_system_aid_sign</string>
+  <string name="prefs_key_system_aid_password">prefs_key_system_aid_password</string>
+  <string name="prefs_key_system_aid_screen_temperature">prefs_key_system_aid_screen_temperature</string>
+  <string name="prefs_title_system_aid_gesture">手势设置</string>
+  <string name="prefs_title_system_aid_sign">标识设置</string>
+  <string name="prefs_title_system_aid_screen_lock_password">密码锁屏</string>
+  <string name="prefs_key_system_aid_screen_lock_intelligent">prefs_key_system_aid_screen_lock_intelligent</string>
+  <string name="prefs_title_system_aid_screen_lock_intelligent">智能锁屏</string>
+  <string name="prefs_title_system_aid_screen_temperature">屏温设置</string>
+
+  <string name="prefs_key_system_aid_sign_mute_icon">prefs_key_system_aid_sign_mute_icon</string>
+  <string name="prefs_key_system_aid_sign_child_lock_icon">prefs_key_system_aid_sign_child_lock_icon</string>
+  <string name="prefs_key_system_aid_sign_touch_icon">prefs_key_system_aid_sign_touch_icon</string>
+  <string name="prefs_key_system_aid_sign_icon_mode">prefs_key_system_aid_sign_icon_mode</string>
+
+  <string name="prefs_title_system_aid_sign_mute_icon">静音图标</string>
+  <string name="prefs_title_system_aid_sign_child_lock_icon">童锁图标</string>
+  <string name="prefs_title_system_aid_sign_touch_icon">触控图标</string>
+  <string name="prefs_title_system_aid_sign_icon_mode">状态提示图标</string>
+  <string name="prefs_summary_system_aid_sign_icon_mode">静音图标、童锁图标、触控图标</string>
+
+  <string name="prefs_key_system_aid_screen_temperature_float_window">prefs_key_system_aid_screen_temperature_float_window</string>
+  <string name="prefs_key_system_aid_screen_temperature_value">prefs_key_system_aid_screen_temperature_value</string>
+
+  <string name="prefs_title_system_aid_screen_temperature_float_window">屏温浮窗</string>
+  <string name="prefs_title_system_aid_screen_temperature_value">屏温临界值</string>
+
+  <string name="prefs_title_system_aid_screen_lock_set_password">设置锁屏密码</string>
+  <string name="prefs_title_system_aid_screen_lock_confirm_old_password">输入旧的锁屏密码</string>
+  <string name="prefs_title_system_aid_screen_lock_set_new_password">设置新的锁屏密码</string>
+  <string name="prefs_title_system_aid_screen_lock_confirm_password">输入锁屏密码</string>
+
+  <string name="prefs_key_system_aid_screen_lock_password_change">prefs_key_system_aid_screen_lock_password_change</string>
+  <string name="prefs_title_system_aid_screen_lock_password_change">更改锁屏密码</string>
+  <string name="prefs_key_system_aid_screen_lock_password_close">prefs_key_system_aid_screen_lock_password_close</string>
+  <string name="prefs_title_system_aid_screen_lock_password_close">关闭锁屏密码</string>
+  <string name="system_aid_screen_lock_header">密码由6位数字组成</string>
+  <string name="system_aid_screen_lock_tips">请牢记您的锁屏密码，忘记后无法找回</string>
+  <string name="system_aid_screen_lock_confirm_header">确认密码</string>
+  <string name="system_aid_screen_lock_header2">请再次输入密码</string>
+  <string name="system_aid_screen_lock_confirm_pwd_error">密码不一致，请重新输入</string>
+  <!--  辅助设置-->
+
+  <!--  关于设备-->
+  <string name="prefs_key_about_serial_number">prefs_key_about_serial_number</string>
+  <string name="prefs_key_about_motherboard_type">prefs_key_about_motherboard_type</string>
+  <string name="prefs_key_about_framework_version">prefs_key_about_framework_version</string>
+  <string name="prefs_key_about_control_version">prefs_key_about_control_version</string>
+  <string name="prefs_key_about_system_version">prefs_key_about_system_version</string>
+  <string name="prefs_key_about_rom_capacity">prefs_key_about_rom_capacity</string>
+  <string name="prefs_key_about_restore_factory_settings">prefs_key_about_restore_factory_settings</string>
+  <string name="prefs_key_about_update_system">prefs_key_about_update_system</string>
+  <string name="prefs_key_about_service_agreement">prefs_key_about_service_agreement</string>
+  <string name="prefs_key_about_service_agreement_privacy_agreement">prefs_key_about_service_agreement_privacy_agreement</string>
+  <string name="prefs_key_about_service_agreement_user_agreement">prefs_key_about_service_agreement_user_agreement</string>
+
+  <string name="prefs_title_about_serial_number">整机序列号</string>
+  <string name="prefs_title_about_motherboard_type">主板类型</string>
+  <string name="prefs_title_about_framework_version">固件版本</string>
+  <string name="prefs_title_about_control_version">版控版本</string>
+  <string name="prefs_title_about_system_version">系统版本</string>
+  <string name="prefs_title_about_rom_capacity">系统内存/存储</string>
+  <string name="prefs_title_about_restore_factory_settings">恢复出厂设置</string>
+  <string name="prefs_title_about_update_system">系统更新</string>
+  <string name="prefs_title_about_service_agreement">服务协议</string>
+  <string name="prefs_title_about_service_agreement_privacy_agreement">隐私协议</string>
+  <string name="prefs_title_about_service_agreement_user_agreement">用户协议</string>
+
+  <string name="dialog_msg_restore_factory_settings">恢复出厂设置将丢失定制设置、应用与数据</string>
+  <string name="dialog_msg_restore_factory_settings_loading">准备恢复出厂…</string>
+  <string name="prefs_key_about_extensions_screen_lock">prefs_key_about_extensions_screen_lock</string>
+  <string name="prefs_title_about_extensions_screen_lock">锁屏方式</string>
+  <string name="prefs_title_app_list">应用列表</string>
+  <string name="prefs_title_app_list_mac">"MAC : %s"</string>
+  <string name="prefs_title_app_list_ip">"IP : %s"</string>
+  <string name="prefs_title_app_list_product_mode">"识别码 : %s"</string>
+  <!--  关于设备-->
+
+  <!--  扩展功能-->
+  <string name="prefs_title_extensions">扩展功能</string>
+  <string name="prefs_title_screen_lock_none">无</string>
+  <string name="prefs_title_screen_lock_slide">滑动解锁</string>
+  <string name="prefs_title_screen_lock_pattern">图案解锁</string>
+  <string name="prefs_title_screen_lock_password">密码解锁</string>
+  <string name="prefs_screen_lock_password_input_tip1">密码由4–9位字符组成，至少包含1个字母</string>
+  <string name="prefs_screen_lock_password_input_hint">请输入您想设置的密码</string>
+  <string name="prefs_screen_lock_password_input_tip2">请牢记您的锁屏密码，忘记后无法找回</string>
+  <string name="prefs_screen_lock_password_confirm_header">请再次输入密码</string>
+  <string name="prefs_screen_lock_password_confirm_error">密码不一致，请重新输入</string>
+  <string name="msg_screen_lock_input_pwd">请输入解锁密码</string>
+  <string name="msg_screen_lock_input_saved_pwd">请输入您设置的密码</string>
+  <string name="msg_screen_lock_error_too_short">至少包含4个字符</string>
+  <string name="msg_screen_lock_error_too_long">最多包含9个字符</string>
+  <string name="msg_screen_lock_error_contain_invalid_characters">密码只能由字母、数字和符号组成</string>
+  <string name="msg_screen_lock_error_not_enough_letter">至少包含1个字母</string>
+  <string name="prefs_screen_lock_pattern_header">请绘制解锁图案</string>
+  <string name="prefs_screen_lock_pattern_header2">请再一次绘制解锁图案</string>
+  <string name="prefs_screen_lock_pattern_header_confirm">确认已保存的图案</string>
+  <string name="prefs_screen_lock_pattern_input_tip1">"请牢记您的锁屏密码，忘记后无法找回"</string>
+  <string name="prefs_screen_lock_pattern_input_tip2">"至少需要连接4个点，请重新绘制"</string>
+  <string name="prefs_screen_lock_pattern_header_first_saved">"图案已记录"</string>
+  <string name="prefs_screen_lock_pattern_confirm_error">"绘制图案不一致，请重新绘制"</string>
+  <string name="prefs_screen_lock_pattern_btn_clear">"清除"</string>
+  <string name="prefs_screen_lock_error_attempts">"请重试。您目前已尝试%d次，最多可尝试%d次"</string>
+  <string name="prefs_screen_lock_over_attempts">"尝试解锁失败次数过多。请在%d秒后重试。"</string>
+  <string name="prefs_screen_lock_pwd_error">"密码错误"</string>
+  <string name="prefs_screen_lock_pin_error">"PIN码错误"</string>
+  <string name="prefs_screen_lock_disable">"未开启"</string>
+  <string name="prefs_screen_lock_enable">"启用中"</string>
+  <string name="prefs_screen_lock_dialog_title_remove_lock">"设备锁屏移除"</string>
+  <string name="prefs_screen_lock_dialog_msg_remove_lock">"是否确认将设备锁屏移除，移除后设备将无锁屏保护！"</string>
+  <string name="prefs_key_extensions_install_apk">prefs_key_extensions_enable_install_apk</string>
+  <string name="prefs_key_extensions_home_key_fun">prefs_key_extensions_home_key_fun</string>
+  <string name="prefs_title_extensions_install_apk">安装第三方应用</string>
+  <string name="prefs_title_extensions_home_key_fun">物理HOME键功能</string>
+  <string name="prefs_title_extensions_home_key_fun_enter_ops">进入Windows页面</string>
+  <string name="prefs_title_extensions_home_key_fun_enter_android">进入安卓主页</string>
+
+  <string name="prefs_color_temperature">色温</string>
+  <string name="prefs_color_temperature_setting">色温设置</string>
+  <string name="prefs_tone_cold">冷</string>
+  <string name="prefs_tone_warm">暖</string>
+  <string name="reset_default_setting">恢复默认</string>
+  <string name="rbg_color_red">红</string>
+  <string name="rbg_color_green">绿</string>
+  <string name="rbg_color_blue">蓝</string>
+  <string name="rbg_color_setting">RGB设置</string>
+  <!--  扩展功能-->
+</resources>

@@ -1,1 +1,545 @@
-<resources></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="app_name">Settings</string>
+  <string name="option_section_network">Network</string>
+  <string name="option_section_common">General</string>
+  <string name="option_section_more">More</string>
+  <string name="option_item_network_wired">Ethernet</string>
+  <string name="option_item_network_wireless">WIFI</string>
+  <string name="option_item_network_hotspot">Hotspot</string>
+  <string name="option_item_router_network_advanced">Advanced</string>
+  <string name="option_item_bluetooth">Bluetooth</string>
+  <string name="option_item_sound_display">Sound &amp; Display</string>
+  <string name="option_item_language_input">Language &amp; Input</string>
+  <string name="option_item_date_time">Date &amp; Time</string>
+  <string name="option_item_signal_source">Signal Source</string>
+  <string name="option_item_customize">Customization</string>
+  <string name="option_item_device_manager">Device Management</string>
+  <string name="option_item_boot_setting">Boot &amp; Standby</string>
+  <string name="option_item_gesture">Gesture Settings</string>
+  <string name="option_item_screen_lock">Screen Lock</string>
+  <string name="option_item_device_info">About Device</string>
+  <string name="option_item_system_aid">Accessibility</string>
+
+  <string name="preference_apply">OK</string>
+  <string name="dialog_confirm">OK</string>
+  <string name="dialog_cancel">Cancel</string>
+  <string name="dialog_title_tips">Tips</string>
+  <string name="dialog_loading_tips">Loading…</string>
+
+
+  <string name="msg_save_success">Save successfully</string>
+  <string name="btn_text_confirm">OK</string>
+  <string name="btn_text_cancel">Cancel</string>
+
+  <!--  有线网络-->
+  <string name="prefs_title_wired_mac">MAC</string>
+  <string name="prefs_title_wired_switch">Ethernet</string>
+  <string name="prefs_title_wired_auto_ip_switch">DHCP</string>
+  <string name="prefs_title_wired_set_ip">IP</string>
+  <string name="prefs_title_wired_set_net_mask">NetMask</string>
+  <string name="prefs_title_wired_set_gateway">Gateway</string>
+  <string name="prefs_title_wired_set_dns">DNS</string>
+
+  <string name="prefs_key_wired_mac">prefs_key_wired_mac</string>
+  <string name="prefs_key_wired_switch">prefs_key_wired_switch</string>
+  <string name="prefs_key_wired_auto_ip_switch">prefs_key_wired_auto_ip_switch</string>
+  <string name="prefs_key_wired_set_ip">prefs_key_wired_set_ip</string>
+  <string name="wired_info_ip">IP</string>
+  <string name="wired_info_net_mask">NetMask</string>
+  <string name="wired_info_gateway">Gateway</string>
+  <string name="wired_info_dns">DNS</string>
+  <string name="msg_wired_is_not_linked">"Ethernet cable is not connected"</string>
+  <!--  有线网络-->
+
+  <!--  无线网络-->
+  <string name="prefs_title_wireless_mac">MAC</string>
+  <string name="prefs_title_wireless_switch">WIFI</string>
+
+  <string name="prefs_key_wireless_mac">prefs_key_wireless_mac</string>
+  <string name="prefs_key_wireless_switch">prefs_key_wireless_switch</string>
+  <string name="prefs_key_wireless_wifi_list">prefs_key_wireless_wifi_list</string>
+
+  <string name="network_wifi_status_connected_no_internet">"Connected, but unable to access the Internet"</string>
+  <string name="network_wifi_status_saved">Saved</string>
+  <string name="network_wifi_status_out_of_range">"Not in range"</string>
+  <string name="network_wifi_status_idle" />
+  <string name="network_wifi_status_disabled">"Disabled"</string>
+  <string name="network_wifi_status_wrong_pwd">"Wrong password"</string>
+  <string name="network_wifi_status_unavailable">"Not enable"</string>
+  <string name="network_wifi_status_network_failure">"Fail to configure IP"</string>
+  <string name="network_wifi_status_wifi_failure">"Fail to connect WLAN"</string>
+  <string name="network_wifi_status_password_failure">"Fail to authenticate identity"</string>
+  <string name="network_wifi_status_scanning">Scanning…</string>
+  <string name="network_wifi_status_connecting">Connecting…</string>
+  <string name="network_wifi_status_authenticating">Authenticating…</string>
+  <string name="network_wifi_status_obtaining_ip_address">Obtaining IP…</string>
+  <string name="network_wifi_status_connected">Connected</string>
+  <string name="network_wifi_status_suspended">Paused</string>
+  <string name="network_wifi_status_disconnecting">Disconnecting…</string>
+  <string name="network_wifi_status_disconnected">Disconnected</string>
+  <string name="network_wifi_status_failed">Fail</string>
+  <string name="network_wifi_status_blocked">Disabled</string>
+  <string name="network_wifi_status_verifying_poor_link">"Close network temporarily (poor network condition)"</string>
+  <string name="network_wifi_connection_security">"Protect with %s"</string>
+  <string name="network_wifi_connection_security_none">"None"</string>
+
+  <string name="dialog_wifi_connect_strength_text">Signal Strength</string>
+  <string name="dialog_wifi_connect_security_text">Security</string>
+  <string name="dialog_wifi_connect_pwd_text">Password</string>
+  <string name="dialog_wifi_connect_advanced_options_text">Advanced Options</string>
+  <string name="dialog_wifi_connect_show_pwd_text">Show Password</string>
+  <string name="dialog_wifi_connect_text_title">Password:</string>
+  <string name="dialog_wifi_connect_text_hint">Enter the network password</string>
+  <string name="dialog_wifi_connect_dhcp">DHCP</string>
+
+  <string name="dialog_wifi_detail_status_text">Status</string>
+  <string name="dialog_wifi_detail_strength_text">Signal Strength</string>
+  <string name="dialog_wifi_detail_speed_text">Network Speed</string>
+  <string name="dialog_wifi_detail_frequency_text">Frequency</string>
+  <string name="dialog_wifi_detail_security_text">Security</string>
+  <string name="dialog_wifi_detail_ip">IP</string>
+  <string name="dialog_wifi_detail_header">Network information</string>
+  <string name="dialog_wifi_detail_forgot">Forgot this network</string>
+
+  <string name="dialog_wifi_forget_text">"Do you want to forget \"%s\"?"</string>
+
+  <string-array name="wifi_signal_level">
+    <item>Very Weak</item>
+    <item>Weak</item>
+    <item>General</item>
+    <item>Strong</item>
+  </string-array>
+
+  <string name="dialog_wifi_connect_loading_msg">Connecting…</string>
+  <string name="wifi_ip_settings_invalid_ip_address">"Please enter valid IP"</string>
+  <string name="wifi_ip_settings_invalid_gateway">"Please enter valid gateway address"</string>
+  <string name="wifi_ip_settings_invalid_dns">"Please enter valid DNS"</string>
+  <string name="wifi_ip_settings_invalid_network_prefix_length">"Please enter valid netmask"</string>
+
+  <string name="msg_wifi_pwd_input_error">Wrong password</string>
+  <string name="msg_wifi_connect_failed">Fail to connect</string>
+  <string name="msg_wifi_connect_timeout">Connection timed out</string>
+  <string name="msg_wifi_connect_failed_pwd_input_error">"Fail to connect due to the wrong password"</string>
+
+  <string name="wifi_text_pwd">Password</string>
+  <string name="wifi_text_input_pwd">Enter password</string>
+  <string name="wifi_text_connecting">Connecting WiFi</string>
+  <string name="wifi_text_connect_failed">Fail to connect due to the wrong password.</string>
+  <string name="wifi_list_header">Select the network</string>
+  <string name="text_btn_connect">Connect</string>
+  <!--  无线网络-->
+
+  <!--  路由高级设置-->
+  <string name="prefs_title_router_advanced">Advanced</string>
+  <string name="prefs_title_router_mode">Mode</string>
+  <string name="prefs_title_router_reset">Reset</string>
+  <string name="prefs_title_router_update">Update</string>
+  <string name="prefs_title_router_mode_route">Router Mode</string>
+  <string name="prefs_title_router_mode_ap">AP Mode</string>
+  <string name="prefs_router_dialog_tip_network_reset">"Resetting will interrupt network connection and it will take about 1 minute."
+  </string>
+  <string name="prefs_router_dialog_tip_update_check">"Checking for update…"</string>
+  <string name="prefs_router_dialog_btn_update">Update</string>
+  <string name="prefs_router_dialog_tip_updating">"Don’t power down while it’s downloading the firmware."</string>
+  <string name="prefs_router_dialog_tip_download_failed">"Failed to download firmware, please try again later!"</string>
+  <string name="prefs_router_tip_update_no_need">"It is up to date."</string>
+  <string name="prefs_router_tip_update_found_new_version">"Find a new version"</string>
+  <string name="prefs_router_tip_update_current_version">Current version：%s</string>
+  <string name="prefs_router_tip_update_new_version">Latest version：%s</string>
+  <string name="prefs_router_tip_on_reboot">"Please wait a moment while it's configuring the network."</string>
+  <!--  路由高级设置-->
+
+  <!--  无线热点-->
+  <string name="prefs_title_hotspot_switch">Hotspot</string>
+  <string name="prefs_title_hotspot_ssid">SSID</string>
+  <string name="prefs_title_hotspot_password">Password</string>
+
+  <string name="prefs_key_hotspot_switch">prefs_key_hotspot_switch</string>
+  <string name="prefs_key_hotspot_ssid">prefs_key_hotspot_ssid</string>
+  <string name="prefs_key_hotspot_password">prefs_key_hotspot_password</string>
+  <string name="prefs_key_hotspot_apply_config">prefs_key_hotspot_apply_config</string>
+
+  <string name="msg_hotspot_ssid_too_long">The name is too long</string>
+  <string name="msg_hotspot_ssid_too_short">"The name can't be empty"</string>
+  <string name="msg_hotspot_pwd_too_long">The password is too long</string>
+  <string name="msg_hotspot_pwd_too_short">8 characters are need for password at least</string>
+  <string name="msg_turn_off_wifi_first">Please turn off the WIFI first</string>
+
+  <string name="prefs_title_router_hotspot_2G">2.4G</string>
+  <string name="prefs_title_router_hotspot_5G">5G</string>
+  <!--  无线热点-->
+
+  <!--  网络小工具-->
+  <string name="network_tool_title">Network Settings</string>
+  <string name="network_tool_wired">Ethernet</string>
+  <string name="network_tool_wireless">WIFI</string>
+  <string name="network_tool_wifi_detail_header">Network Information</string>
+  <string name="network_tool_wifi_forget">Forgot this network</string>
+  <!--  网络小工具-->
+
+  <!--  声音和显示-->
+  <string name="prefs_key_sound">prefs_key_sound</string>
+  <string name="prefs_key_display">prefs_key_display</string>
+  <string name="prefs_key_energy_saving">prefs_key_energy_saving</string>
+  <string name="prefs_key_eye_protection">prefs_key_eye_protection</string>
+  <string name="prefs_key_source_display">prefs_key_source_display</string>
+  <string name="prefs_title_sound">Sound</string>
+  <string name="prefs_title_display">Display</string>
+  <string name="prefs_title_energy_saving">Efficiency</string>
+  <string name="prefs_title_eye_protection">Eyes protection</string>
+  <string name="prefs_title_source_display">Screen</string>
+
+  <string name="prefs_title_sound_advanced">Advanced</string>
+  <string name="prefs_title_sound_bass">Bass</string>
+  <string name="prefs_title_sound_treble">Treble</string>
+  <string name="prefs_title_sound_balanced">Balance</string>
+  <string name="prefs_title_sound_mute">Mute</string>
+  <string name="prefs_title_sound_volume">Volume</string>
+  <string name="prefs_title_sound_mode_standard">Standard</string>
+  <string name="prefs_title_sound_mode_meeting">Meeting</string>
+  <string name="prefs_title_sound_mode_cinema">Cinema</string>
+  <string name="prefs_title_sound_mode_classroom">Classroom</string>
+  <string name="prefs_title_sound_mode_customize">Customization</string>
+
+  <string name="prefs_title_display_advanced">Advanced</string>
+  <string name="prefs_title_display_brightness">Brightness</string>
+  <string name="prefs_title_display_contrast">Contrast</string>
+  <string name="prefs_title_display_hue">Hue</string>
+  <string name="prefs_title_display_sharpness">Sharpness</string>
+  <string name="prefs_title_display_mode_standard">Standard</string>
+  <string name="prefs_title_display_mode_bright">Bright</string>
+  <string name="prefs_title_display_mode_vivid">Vivid</string>
+  <string name="prefs_title_display_mode_low_light">Eyes protection</string>
+  <string name="prefs_title_display_mode_customize">Customization</string>
+
+  <string name="prefs_title_source_display_mode_auto">Auto</string>
+  <string name="prefs_title_source_display_mode_p2p">Point to Point</string>
+  <string name="prefs_title_source_display_mode_16_9">16:9</string>
+  <string name="prefs_title_source_display_mode_4_3">4:3</string>
+
+  <string name="prefs_key_energy_standby_mode">prefs_key_energy_standby_mode</string>
+  <string name="prefs_title_energy_standby_mode">Standby Mode</string>
+  <string name="prefs_title_energy_standby_mode_normal">Standard Standby</string>
+  <string name="prefs_title_energy_standby_mode_part">Fast Boot</string>
+  <string name="prefs_title_energy_standby_mode_str">""</string>
+
+  <string name="prefs_key_energy_saving_close_blackboard">prefs_key_energy_saving_close_blackboard</string>
+  <string name="prefs_title_energy_saving_close_blackboard">Blackboard off auto standby</string>
+  <string name="prefs_title_energy_saving_close_blackboard_never">Never</string>
+  <string name="prefs_title_energy_saving_close_blackboard_1_minute">1 Minute</string>
+  <string name="prefs_title_energy_saving_close_blackboard_3_minute">3 Minutes</string>
+  <string name="prefs_title_energy_saving_close_blackboard_5_minute">5 Minutes</string>
+
+  <string name="prefs_key_energy_saving_no_operation">prefs_key_energy_saving_no_operation</string>
+  <string name="prefs_title_energy_saving_no_operation">Standby automatically without operation</string>
+  <string name="prefs_title_energy_saving_no_operation_never">Never</string>
+  <string name="prefs_title_energy_saving_no_operation_10_minute">10 Minutes</string>
+  <string name="prefs_title_energy_saving_no_operation_30_minute">30 Minutes</string>
+  <string name="prefs_title_energy_saving_no_operation_60_minute">1 Hour</string>
+  <string name="prefs_title_energy_saving_no_operation_120_minute">2 Hours</string>
+  <string name="prefs_title_energy_saving_no_operation_180_minute">3 Hours</string>
+  <string name="text_energy_saving_minute">"%d Minutes"</string>
+  <string name="text_energy_saving_hour">"%d Hours"</string>
+
+  <string name="prefs_title_eye_protection_switch">Protection Mode</string>
+  <string name="prefs_title_eye_protection_switch_summary">Reduce damage to eyesight through changes in color temperature and brightness</string>
+  <string name="prefs_title_eye_protection_plus">Soft-Light Mode</string>
+  <string name="prefs_title_eye_protection_plus_summary">Reduce the damage to eyesight by adjusting the color temperature</string>
+  <string name="prefs_title_eye_protection_brightness_low">Low-Light Mode</string>
+  <string name="prefs_title_eye_protection_brightness_low_summary">Reduce the harm to eyes by adjusting the brightness</string>
+  <string name="prefs_title_eye_protection_brightness_write">Writing Mode</string>
+  <string name="prefs_title_eye_protection_brightness_write_summary">Reduce the harm to eyes by adjusting brightness when somebody writing on Whiteboard</string>
+  <string name="prefs_title_eye_protection_brightness_auto">Auto-Light Mode</string>
+  <string name="prefs_title_eye_protection_brightness_auto_summary">Reduce the harm to eyes by adjusting brightness according to the brightness of environment.
+  </string>
+
+  <!--  声音和显示-->
+
+  <!--  语言和输入法-->
+  <string name="prefs_key_language">prefs_key_language</string>
+  <string name="prefs_title_language">Language</string>
+  <string name="prefs_title_language_simple_chinese">简体中文</string>
+  <string name="prefs_title_language_english">English</string>
+
+  <string name="prefs_key_input">prefs_key_input</string>
+  <string name="prefs_title_input">Input</string>
+  <!--  语言和输入法-->
+
+  <!--  日期和时间  -->
+  <string name="prefs_title_date_time_time_zone">Time Zone</string>
+  <string name="prefs_title_date_time_auto_time">Automatically</string>
+  <string name="prefs_title_date_time_set_date">Date</string>
+  <string name="prefs_title_date_time_set_time">Time</string>
+  <string name="prefs_title_date_time_time_24">24-Hour Time</string>
+  <string name="prefs_title_date_time_countdown">Countdown</string>
+  <string name="prefs_title_date_time_am">AM</string>
+  <string name="prefs_title_date_time_pm">PM</string>
+
+  <string name="prefs_key_datetime_time_zone">prefs_key_time_zone</string>
+  <string name="prefs_key_datetime_auto_time">prefs_key_auto_time</string>
+  <string name="prefs_key_datetime_set_date">prefs_key_set_date</string>
+  <string name="prefs_key_datetime_set_time">prefs_key_set_time</string>
+  <string name="prefs_key_datetime_time_12_24">prefs_key_time_12_24</string>
+  <string name="prefs_key_datetime_time_countdown">prefs_key_time_countdown</string>
+
+  <string name="prefs_title_datetime_countdown_switch">Switch</string>
+  <string name="prefs_title_datetime_countdown_event_name">Name</string>
+  <string name="prefs_title_datetime_countdown_event_time">Date</string>
+
+  <string name="prefs_datetime_dialog_countdown_event_1">高考</string>
+  <string name="prefs_datetime_dialog_countdown_event_2">会考</string>
+  <string name="prefs_datetime_dialog_countdown_event_3">期中考试</string>
+  <string name="prefs_datetime_dialog_countdown_event_4">期末考试</string>
+  <string name="prefs_datetime_dialog_countdown_event_custom">Customization</string>
+  <string name="text_year">Year</string>
+  <string name="text_month">Month</string>
+  <string name="text_day">Day</string>
+  <string name="text_countdown_add_event">Add Event</string>
+  <!--  日期和时间  -->
+
+  <!--  个性化-->
+  <string name="prefs_title_customize_wallpaper">Wallpaper</string>
+  <string name="prefs_title_customize_compass">AssistiveTouch</string>
+  <string name="prefs_title_customize_quick_start_menu">Quick Call Menu</string>
+  <string name="prefs_title_customize_hotkey">Shortcut Bar</string>
+
+  <string name="prefs_key_customize_wallpaper">prefs_key_customize_background</string>
+  <string name="prefs_key_customize_compass">prefs_key_customize_compass</string>
+  <string name="prefs_key_customize_quick_start_menu">prefs_key_customize_quick_start_menu</string>
+  <string name="prefs_key_customize_hotkey">prefs_key_customize_keymap</string>
+
+  <string name="prefs_title_customize_usb_passage">Dual-Channel USB</string>
+  <string name="prefs_key_customize_usb_passage">prefs_key_customize_usb_passage</string>
+  <string name="prefs_title_customize_usb_passage_adaptive">Adaptive</string>
+  <string name="prefs_title_customize_usb_passage_android_only">Android Only</string>
+  <string name="prefs_title_customize_usb_passage_ops_only">OPS Only</string>
+  <string name="prefs_key_customize_usb_passage_adaptive">prefs_key_customize_usb_passage_adaptive</string>
+  <string name="prefs_key_customize_usb_passage_android_only">prefs_key_customize_usb_passage_android_only</string>
+  <string name="prefs_key_customize_usb_passage_ops_only">prefs_key_customize_usb_passage_ops_only</string>
+
+  <string name="prefs_key_customize_background_launcher_show">prefs_key_customize_background_launcher_show</string>
+  <string name="prefs_key_customize_background_picker">prefs_key_customize_background_picker</string>
+  <string name="prefs_title_customize_background_launcher_show">Show Time</string>
+  <string name="prefs_customize_background_image_tip">Tips: Only supports PNG format pictures and the resolution should be above 1920*1080.</string>
+  <string name="prefs_title_customize_wallpaper_add">Add Wallpaper</string>
+  <string name="msg_usb_device_not_found">Not find USB devices</string>
+  <string name="msg_set_wallpaper_failed">Fail to set wallpaper</string>
+  <string name="custom_wallpaper_local">Local</string>
+  <string name="custom_wallpaper_usb">U disk</string>
+  <string name="custom_wallpaper_not_found">No content found</string>
+
+  <string name="prefs_key_customize_compass_switch">prefs_key_customize_compass_switch</string>
+  <string name="prefs_title_customize_compass_switch">AssistiveTouch</string>
+  <string name="prefs_key_customize_animate_compass_switch">prefs_key_customize_animate_compass_switch</string>
+  <string name="prefs_title_customize_animate_compass_switch">Animation effects</string>
+  <string name="prefs_key_customize_compass_customize">prefs_key_customize_compass_customize</string>
+  <string name="prefs_title_customize_compass_customize">AssistiveTouch Customization</string>
+  <string name="compass_text_add_package_unit">Add</string>
+  <string name="compass_text_group_name">Group name:</string>
+  <string name="compass_text_restore">Reset</string>
+
+  <string name="text_hot_key_mode_header">Display Mode:</string>
+  <string name="text_hot_key_mode_simple">Simple</string>
+  <string name="text_hot_key_mode_classic">Classical</string>
+  <string name="text_hot_key_mode_hide">Hidden</string>
+  <string name="text_hot_key_time_header">Auto hide time:</string>
+  <string name="text_hot_key_time_5s">5s</string>
+  <string name="text_hot_key_time_10s">10s</string>
+  <string name="text_hot_key_time_20s">20s</string>
+  <!--  个性化-->
+
+  <!--  信号源-->
+  <string name="prefs_key_signal_source_customize">prefs_key_signal_source_customize</string>
+  <string name="prefs_key_signal_source_auto_enter_new_source">prefs_key_signal_source_auto_enter_new_source</string>
+  <string name="prefs_key_signal_source_auto_wakeup">prefs_key_signal_source_auto_wakeup</string>
+  <string name="prefs_key_signal_source_hdmi_output">prefs_key_signal_source_hdmi_output</string>
+  <string name="prefs_key_signal_source_auto_switch">prefs_key_signal_source_auto_switch</string>
+
+  <string name="prefs_title_signal_source_customize">Signal Source Customization</string>
+  <string name="prefs_title_signal_source_auto_enter_new_source">Switch to the new signal source automatically</string>
+  <string name="prefs_title_signal_source_auto_wakeup">Automatic start of computer signal</string>
+  <string name="prefs_title_signal_source_hdmi_output">HDMI Out</string>
+  <string name="prefs_title_signal_source_auto_switch">Switch signal automatically</string>
+  <string name="text_signal_source_customize_hint">Customization</string>
+  <!--  信号源-->
+
+  <!--  开机设置-->
+  <string name="prefs_key_boot_enter_signal_source">prefs_key_boot_enter_signal_source</string>
+  <string name="prefs_key_boot_ops_start_mode">prefs_key_boot_ops_start_mode</string>
+  <string name="prefs_key_boot_remote_boot">prefs_key_boot_remote_boot</string>
+  <string name="prefs_key_boot_timer_switch">prefs_key_boot_timer_switch</string>
+
+  <string name="prefs_title_boot_enter_signal_source">Enter after booting</string>
+  <string name="prefs_title_boot_enter_signal_source_last">Previous signal source</string>
+  <string name="prefs_title_boot_ops_start_mode">Built-in computer boot mode</string>
+  <string name="prefs_title_boot_ops_start_mode_only">"Only boot when it's in built-in computer channel"</string>
+  <string name="prefs_title_boot_ops_start_mode_always">"Boot when it's in any channel"</string>
+  <string name="prefs_title_boot_remote_boot">Boot by remote</string>
+  <string name="prefs_title_boot_timer_switch">Boot by timer</string>
+  <string name="prefs_key_boot_timer_add_plan">prefs_key_boot_timer_add_plan</string>
+  <string name="prefs_title_boot_timer_add_plan">Add plan</string>
+  <string name="msg_timer_boot_repeat">Please set the repeat time of booting.</string>
+  <string name="msg_timer_shutdown_repeat">Please set the repeat time of shutdown.</string>
+  <string name="text_boot_time">Boot time</string>
+  <string name="text_shutdown_time">Shutdown time</string>
+  <string name="text_boot">Boot</string>
+  <string name="text_shutdown">Shutdown</string>
+  <string name="text_repeat">Repeat</string>
+  <string name="text_monday">Monday</string>
+  <string name="text_tuesday">Tuesday</string>
+  <string name="text_wednesday">Wednesday</string>
+  <string name="text_thursday">Thursday</string>
+  <string name="text_friday">Friday</string>
+  <string name="text_saturday">Saturday</string>
+  <string name="text_sunday">Sunday</string>
+
+  <string name="text_monday_short">Mon</string>
+  <string name="text_tuesday_short">Tue</string>
+  <string name="text_wednesday_short">Wed</string>
+  <string name="text_thursday_short">Thu</string>
+  <string name="text_friday_short">Fri</string>
+  <string name="text_saturday_short">Sat</string>
+  <string name="text_sunday_short">Sun</string>
+  <!--  开机设置-->
+
+  <!--  手势设置-->
+  <string name="prefs_key_gesture_3_pointer_close_screen">prefs_key_gesture_3_pointer_close_screen</string>
+  <string name="prefs_key_gesture_2_pointer_move_compass">prefs_key_gesture_2_pointer_move_compass</string>
+  <string name="prefs_key_gesture_double_tap_compass_move_down_screen">prefs_key_gesture_double_tap_compass_move_down_screen</string>
+
+  <string name="prefs_title_gesture_3_pointer_close_screen">Screen-off by three fingers</string>
+  <string name="prefs_title_gesture_2_pointer_move_compass">Call the AssistiveTouch by long press of two fingers</string>
+  <string name="prefs_title_gesture_double_tap_compass_move_down_screen">Move down the screen by double click the AssistiveTouch</string>
+  <!--  手势设置-->
+
+  <!--  辅助设置-->
+  <string name="prefs_key_system_aid_gesture">prefs_key_system_aid_gesture</string>
+  <string name="prefs_key_system_aid_sign">prefs_key_system_aid_sign</string>
+  <string name="prefs_key_system_aid_password">prefs_key_system_aid_password</string>
+  <string name="prefs_key_system_aid_screen_temperature">prefs_key_system_aid_screen_temperature</string>
+  <string name="prefs_title_system_aid_gesture">Gesture Settings</string>
+  <string name="prefs_title_system_aid_sign">Sign Settings</string>
+  <string name="prefs_title_system_aid_screen_lock_password">Password Unlock</string>
+  <string name="prefs_key_system_aid_screen_lock_intelligent">prefs_key_system_aid_screen_lock_intelligent</string>
+  <string name="prefs_title_system_aid_screen_lock_intelligent">Intelligent Unlock</string>
+  <string name="prefs_title_system_aid_screen_temperature">Screen temperature</string>
+
+  <string name="prefs_key_system_aid_sign_mute_icon">prefs_key_system_aid_sign_mute_icon</string>
+  <string name="prefs_key_system_aid_sign_child_lock_icon">prefs_key_system_aid_sign_child_lock_icon</string>
+  <string name="prefs_key_system_aid_sign_touch_icon">prefs_key_system_aid_sign_touch_icon</string>
+  <string name="prefs_key_system_aid_sign_icon_mode">prefs_key_system_aid_sign_icon_mode</string>
+
+  <string name="prefs_title_system_aid_sign_mute_icon">Mute Icon</string>
+  <string name="prefs_title_system_aid_sign_child_lock_icon">Child Lock Icon</string>
+  <string name="prefs_title_system_aid_sign_touch_icon">Touch Control Icon</string>
+  <string name="prefs_title_system_aid_sign_icon_mode">Status Icon</string>
+  <string name="prefs_summary_system_aid_sign_icon_mode">Mute,Child Lock,Touch Control</string>
+
+  <string name="prefs_key_system_aid_screen_temperature_float_window">prefs_key_system_aid_screen_temperature_float_window</string>
+  <string name="prefs_key_system_aid_screen_temperature_value">prefs_key_system_aid_screen_temperature_value</string>
+
+  <string name="prefs_title_system_aid_screen_temperature_float_window">Floating window showing screen temperature</string>
+  <string name="prefs_title_system_aid_screen_temperature_value">Critical values of screen temperature</string>
+
+  <string name="prefs_title_system_aid_screen_lock_set_password">Set password for unlock</string>
+  <string name="prefs_title_system_aid_screen_lock_confirm_old_password">Enter the old password</string>
+  <string name="prefs_title_system_aid_screen_lock_set_new_password">Set a new password</string>
+  <string name="prefs_title_system_aid_screen_lock_confirm_password">Enter the password</string>
+
+  <string name="prefs_key_system_aid_screen_lock_password_change">prefs_key_system_aid_screen_lock_password_change</string>
+  <string name="prefs_title_system_aid_screen_lock_password_change">Change the password</string>
+  <string name="prefs_key_system_aid_screen_lock_password_close">prefs_key_system_aid_screen_lock_password_close</string>
+  <string name="prefs_title_system_aid_screen_lock_password_close">Disable unlock</string>
+  <string name="system_aid_screen_lock_header">The password consists of 6 digits</string>
+  <string name="system_aid_screen_lock_tips">Please remember your password, you can’t get it back if you forget it.</string>
+  <string name="system_aid_screen_lock_confirm_header">Confirm the password</string>
+  <string name="system_aid_screen_lock_header2">Please enter the password again</string>
+  <string name="system_aid_screen_lock_confirm_pwd_error">"The password doesn't match with the last one, please re-enter"</string>
+  <!--  辅助设置-->
+
+  <!--  关于设备-->
+  <string name="prefs_key_about_serial_number">prefs_key_about_serial_number</string>
+  <string name="prefs_key_about_motherboard_type">prefs_key_about_motherboard_type</string>
+  <string name="prefs_key_about_framework_version">prefs_key_about_framework_version</string>
+  <string name="prefs_key_about_control_version">prefs_key_about_control_version</string>
+  <string name="prefs_key_about_system_version">prefs_key_about_system_version</string>
+  <string name="prefs_key_about_rom_capacity">prefs_key_about_rom_capacity</string>
+  <string name="prefs_key_about_restore_factory_settings">prefs_key_about_restore_factory_settings</string>
+  <string name="prefs_key_about_update_system">prefs_key_about_update_system</string>
+  <string name="prefs_key_about_service_agreement">prefs_key_about_service_agreement</string>
+  <string name="prefs_key_about_service_agreement_privacy_agreement">prefs_key_about_service_agreement_privacy_agreement</string>
+  <string name="prefs_key_about_service_agreement_user_agreement">prefs_key_about_service_agreement_user_agreement</string>
+
+  <string name="prefs_title_about_serial_number">Serial Number</string>
+  <string name="prefs_title_about_motherboard_type">Mainboard Type</string>
+  <string name="prefs_title_about_framework_version">Firmware Version</string>
+  <string name="prefs_title_about_control_version">TouchPanel Version</string>
+  <string name="prefs_title_about_system_version">System Version</string>
+  <string name="prefs_title_about_rom_capacity">Memory/Storage</string>
+  <string name="prefs_title_about_restore_factory_settings">Factory Reset</string>
+  <string name="prefs_title_about_update_system">System Update</string>
+  <string name="prefs_title_about_service_agreement">Service Agreement</string>
+  <string name="prefs_title_about_service_agreement_privacy_agreement">Privacy Agreement</string>
+  <string name="prefs_title_about_service_agreement_user_agreement">User Agreement</string>
+  <string name="dialog_msg_restore_factory_settings">Factory reset will wipe all the applications and data. Do you want to do it?</string>
+  <string name="dialog_msg_restore_factory_settings_loading">"Preparing to factory reset…"</string>
+  <string name="prefs_key_about_extensions_screen_lock">prefs_key_about_extensions_screen_lock</string>
+  <string name="prefs_title_about_extensions_screen_lock">Unlock Type</string>
+  <string name="prefs_title_app_list">App List</string>
+  <string name="prefs_title_app_list_mac">"MAC : %s"</string>
+  <string name="prefs_title_app_list_ip">"IP : %s"</string>
+  <string name="prefs_title_app_list_product_mode">"MODE : %s"</string>
+  <!--  关于设备-->
+
+  <!--  屏幕锁定-->
+  <string name="prefs_title_extensions">Extended Function</string>
+  <string name="prefs_title_screen_lock_none">None</string>
+  <string name="prefs_title_screen_lock_slide">Unlock by sliding</string>
+  <string name="prefs_title_screen_lock_pattern">Unlock by pattern</string>
+  <string name="prefs_title_screen_lock_password">Unlock by password</string>
+  <string name="prefs_screen_lock_password_input_tip1">"Password consists of 4–9 characters and at least 1 letter."</string>
+  <string name="prefs_screen_lock_password_input_hint">Please enter the password you want.</string>
+  <string name="prefs_screen_lock_password_input_tip2">Please remember your unlock password, you can’t get it back if you forget it.</string>
+  <string name="prefs_screen_lock_password_confirm_header">Please enter the password again</string>
+  <string name="prefs_screen_lock_password_confirm_error">"The password doesn't match with the last one, please re-enter"</string>
+  <string name="msg_screen_lock_input_pwd">Please enter the password</string>
+  <string name="msg_screen_lock_input_saved_pwd">Please enter the password</string>
+  <string name="msg_screen_lock_error_too_short">Enter 4 characters at least</string>
+  <string name="msg_screen_lock_error_too_long">Enter 9 characters at most</string>
+  <string name="msg_screen_lock_error_contain_invalid_characters">The password consists of letters, numbers and symbols only.</string>
+  <string name="msg_screen_lock_error_not_enough_letter">The password consists 1 letter at least.</string>
+  <string name="prefs_screen_lock_pattern_header">Please draw the pattern</string>
+  <string name="prefs_screen_lock_pattern_header2">Please draw the pattern again</string>
+  <string name="prefs_screen_lock_pattern_header_confirm">Confirm the saved pattern</string>
+  <string name="prefs_screen_lock_pattern_input_tip1">"Please remember your password, you can’t get it back if you forget it."</string>
+  <string name="prefs_screen_lock_pattern_input_tip2">"4 points need to be connected at least, please redraw"</string>
+  <string name="prefs_screen_lock_pattern_header_first_saved">"The pattern has been saved"</string>
+  <string name="prefs_screen_lock_pattern_confirm_error">"The pattern doesn't match, please redraw"</string>
+  <string name="prefs_screen_lock_pattern_btn_clear">"Clear"</string>
+  <string name="prefs_screen_lock_error_attempts">"Please try again. You have tried %d times so far, you can try %d times at most."</string>
+  <string name="prefs_screen_lock_over_attempts">"Too many attempts to unlock failed. Please try again in %d seconds."</string>
+  <string name="prefs_screen_lock_pwd_error">"Wrong Password"</string>
+  <string name="prefs_screen_lock_pin_error">"Wrong PIN"</string>
+  <string name="prefs_screen_lock_disable">"Not Enabled"</string>
+  <string name="prefs_screen_lock_enable">"Enabling"</string>
+  <string name="prefs_screen_lock_dialog_title_remove_lock">"Unlock disable"</string>
+  <string name="prefs_screen_lock_dialog_msg_remove_lock">"Do you want to disable unlock? The device will lose the protection of unlock once disable it!"</string>
+  <string name="prefs_key_extensions_install_apk">prefs_key_extensions_enable_install_apk</string>
+  <string name="prefs_key_extensions_home_key_fun">prefs_key_extensions_home_key_fun</string>
+  <string name="prefs_title_extensions_install_apk">Install third-party apps</string>
+  <string name="prefs_title_extensions_home_key_fun">"'HOME' Key Function"</string>
+  <string name="prefs_title_extensions_home_key_fun_enter_ops">Enter Windows</string>
+  <string name="prefs_title_extensions_home_key_fun_enter_android">Enter Android</string>
+
+  <string name="prefs_color_temperature">Color Temperature</string>
+  <string name="prefs_color_temperature_setting">Color Temperature Setting</string>
+  <string name="prefs_tone_cold">Cold</string>
+  <string name="prefs_tone_warm">Warm</string>
+  <string name="reset_default_setting">Reset</string>
+  <string name="rbg_color_red">Red</string>
+  <string name="rbg_color_green">Green</string>
+  <string name="rbg_color_blue">Blue</string>
+  <string name="rbg_color_setting">RGB Setting</string>
+  <!--  屏幕锁定-->
+</resources>

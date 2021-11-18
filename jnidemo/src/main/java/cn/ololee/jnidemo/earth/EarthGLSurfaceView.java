@@ -28,7 +28,7 @@ public class EarthGLSurfaceView extends GLSurfaceView implements View.OnTouchLis
     this.setRenderer(earthRenderer);
     // 设置渲染模式为主动渲染
     this.setRenderMode(GLSurfaceView.RENDERMODE_CONTINUOUSLY);
-    MatrixState.rotate(90f, 1, 0, 0);//绕y轴旋转
+    //MatrixState.rotate(90f, 1, 0, 0);//绕y轴旋转
 
     this.setOnTouchListener(this);
   }

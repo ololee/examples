@@ -7,7 +7,10 @@
     android:required="true" />
 
   <application>
-    <activity android:name=".earth.EarthActivity"></activity>
+    <activity
+      android:name=".traingles.vbo.TriWithBufferActivity"
+      android:exported="false" />
+    <activity android:name=".earth.EarthActivity" />
     <activity android:name=".sphere.SphereActivity" />
     <activity android:name=".traingles.TrainglesActivity" />
     <activity android:name=".mmap.MmapActivity" />

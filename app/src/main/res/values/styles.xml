@@ -14,4 +14,9 @@
     <attr name="maxR" format="dimension" />
     <attr name="minR" format="dimension" />
   </declare-styleable>
+
+
+  <declare-styleable name="HobbyRecyclerView">
+    <attr name="scrollBarMode" format="integer"/>
+  </declare-styleable>
 </resources>

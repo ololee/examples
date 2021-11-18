@@ -15,6 +15,7 @@
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
     android:theme="@style/Theme.Examples">
+    <activity android:name=".activities.openeth0.OpenEthActivity"></activity>
     <activity android:name=".activities.pagedload.PagedLoadedActivity"></activity>
     <activity android:name=".activities.rotate.RotateActivity" />
     <activity android:name=".activities.controller.ControllerActivity" />

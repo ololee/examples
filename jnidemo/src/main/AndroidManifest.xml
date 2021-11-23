@@ -8,6 +8,9 @@
 
   <application>
     <activity
+      android:name=".shadertoy.ShadertoyActivity"
+      android:exported="false" />
+    <activity
       android:name=".traingles.vbo.TriWithBufferActivity"
       android:exported="false" />
     <activity android:name=".earth.EarthActivity" />

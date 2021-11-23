@@ -34,4 +34,6 @@ public class TriWithBufferRenderer implements GLSurfaceView.Renderer {
   public native void surfaceChange(int width,int height);
 
   public native void drawFrame();
+
+  public native void move(float x,float y,float z);
 }

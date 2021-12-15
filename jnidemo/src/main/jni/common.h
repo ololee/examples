@@ -40,7 +40,7 @@ if(!var){ \
 }
 
 #define GET_FIELD_ID(var ,clazz, fieldName, SIG) \
-var =  env->GetFieldID(clzzz,fieldName,SIG); \
+var =  env->GetFieldID(clazz,fieldName,SIG); \
 if(!var){ \
  LOGE("unabele to find field %s",fieldName); \
 }

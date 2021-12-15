@@ -14,6 +14,7 @@ add_library(jnidemo
         gles/traingles.cpp
         gles/glutils.cpp
         entry.cpp
+        shadertoy/shadertoy.cpp
         vbo/TriVBO.cpp
         mmaputils.cpp)
 
